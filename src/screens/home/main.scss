@@ -1,0 +1,214 @@
+._hm_wrapper {
+  min-height: 100vh;
+  padding: 10rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../assets/svg/background.svg") no-repeat;
+  background-size: cover;
+}
+
+._hm_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+
+._hm_nossa_logo {
+  width: 90%;
+  margin: auto;
+}
+
+._hm_btn_containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+._hm_contact {
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: center;
+  color: $indigo-dye;
+  background-color: $white;
+  display: inline-block;
+  position: relative;
+  padding: 3rem 5rem;
+  margin: 0 auto;
+  border-radius: 50rem;
+}
+
+._hm_contact::before {
+  content: '';
+  width: 80%;
+  height: 3rem;
+  position: absolute;
+  display: inline-block;
+  border-radius: 5rem;
+  background: $yellow-green;
+  left: 50%;
+  bottom: -1.5rem;
+  transform: translateX(-50%);
+}
+
+._hm_social, 
+._hm_social ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+._hm_social {
+  flex-direction: column;
+}
+
+._hm_social_icon {
+  font-size: 8rem;
+  color: $indigo-dye;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  padding: 1.2rem;
+  clip-path: circle();
+}
+
+._hm_link {
+  color: $white;
+  font-size: 6rem;
+  margin-top: 2rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* ============= Media Queries ============= */
+
+@media (max-width: 430px) {
+  ._hm_wrapper {
+    padding: 3rem 3rem 1rem;
+  }
+
+  ._hm_nossa_logo {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  ._hm_btn_containers {
+    gap: 3.2rem;
+  }
+
+  ._hm_contact {
+    font-size: 2.4rem;
+    padding: 1rem 2rem;
+  }
+
+  ._hm_contact::before {
+    height: 1rem;
+    bottom: -0.5rem;
+  }
+
+  ._hm_container {
+    gap: 4rem;
+  }
+
+  ._hm_social_icon {
+    font-size: 2.4rem;
+    padding: .6rem;
+  }
+
+  ._hm_social ul {
+    gap: 1.2rem;
+  }
+  
+  ._hm_link {
+    font-size: 2.4rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  ._hm_wrapper {
+    padding: 2rem 1rem 2rem;
+  }
+
+  ._hm_nossa_logo {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  ._hm_btn_containers {
+    gap: 2rem;
+  }
+
+  ._hm_contact {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  ._hm_contact::before {
+    height: 1rem;
+    bottom: -0.5rem;
+  }
+
+  ._hm_container {
+    gap: 2rem;
+  }
+
+  ._hm_social_icon {
+    font-size: 2rem;
+    padding: .6rem;
+  }
+
+  ._hm_social ul {
+    gap: 1rem;
+  }
+  
+  ._hm_link {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  ._hm_wrapper {
+    padding: 2rem 1rem 2rem;
+  }
+
+  ._hm_nossa_logo {
+    width: 60%;
+  }
+
+  ._hm_btn_containers {
+    gap: 2rem;
+  }
+
+  ._hm_contact {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  ._hm_contact::before {
+    height: 1rem;
+    bottom: -0.5rem;
+  }
+
+  ._hm_container {
+    gap: 2rem;
+  }
+
+  ._hm_social_icon {
+    font-size: 2rem;
+    padding: .6rem;
+  }
+
+  ._hm_social ul {
+    gap: 1rem;
+  }
+  
+  ._hm_link {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+}
