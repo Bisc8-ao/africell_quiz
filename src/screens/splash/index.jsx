@@ -19,7 +19,7 @@ export default function Splash() {
     <div className="_sp_wrapper">
       <div className="_sp_image_logo_container">
         <div className="_sp_rotating_bg"></div>
-        <img className="_sp_logo-nossa teste" src={logo} alt="" />
+        <img className="_sp_logo-nossa" src={logo} alt="" />
       </div>
     </div>
   )

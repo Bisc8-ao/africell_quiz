@@ -17,12 +17,13 @@
 
 ._in_container {
   width: 100%;
-  display: inherit;
+  display: flex;
   flex-direction: column;
-  gap: 40rem;
+  justify-content: center;
+  gap: 10rem;
 
   margin: auto 0;
-  padding: 0 $mr-xxl;
+  padding: 0 $mr-xl;
 }
 
 ._in_nossa_logo {
@@ -30,8 +31,13 @@
   margin: 0 auto;
 }
 
+._le_hole_container {
+  display: flex;
+}
+
 ._le_message._le_mesage_in {
   font-size: 6rem;
+  width: 90%;
 }
 
 ._in_btn_containers {
@@ -63,7 +69,7 @@
 }
 @media (max-width: 430px) {
   ._in_container {
-    gap: 4rem;
+    gap: 1rem;
     padding: 0 1.4rem;
   }
 

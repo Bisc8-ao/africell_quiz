@@ -25,9 +25,11 @@ function Intro() {
             habilita-te a ganhar prémios.
           </p>
         </div>
+          <hr />
         <div className="_in_btn_containers">
           <MainButton text="Começar" handleClick={handleClick} transitionDelay={500} />
         </div>
+        <hr />
       </div>
       <Footer />
     </div>

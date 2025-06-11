@@ -10,6 +10,8 @@
 
 ._sp_logo-nossa {
   width: 60%;
+  position: absolute;
+  z-index: 2;
 }
 
 ._sp_image_logo_container {
@@ -27,19 +29,15 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 150%;
-  height: 150%;
+  transform: translate(50%, -50%);
+  width: 250%;
+  height: 250%;
   background: url(../../assets/images/mars_sunburst.png) no-repeat center center;
   background-size: cover;
   transform: translate(-50%, -50%);
   animation: rotateBackground 10s linear infinite;
-  z-index: -1; /* Fica atrás do logo */
+  z-index: 1; /* Fica atrás do logo */
 }
-
-.teste {
-    animation: teste cubic-bezier(0.68, -0.55, 0.27, 1.55) 1s infinite alternate;
-}
-
 
 @keyframes rotateBackground {
   from {

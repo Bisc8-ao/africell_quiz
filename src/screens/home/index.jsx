@@ -20,7 +20,7 @@ function Home() {
         <img className="_hm_nossa_logo" src={logo} alt="" />
         <div className="_hm_btn_containers">
           <MainButton
-            text="Quero Jogar"
+            text="Jogar"
             handleClick={handleClick}
             transitionDelay={500}
           />

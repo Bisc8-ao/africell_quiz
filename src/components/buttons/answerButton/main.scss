@@ -3,9 +3,12 @@
   font-size: 7rem;
   color: $white;
   padding: 4rem 6rem;
-  border-radius: 50rem;
-  border: 1.5rem solid $yellow-green;
-  background: $indigo-dye;
+  // border-radius: 50rem;
+  // border: 1.5rem solid $yellow-green;
+  background: url(../../../assets/svg/background_answer.svg) no-repeat;
+  // background: $indigo-dye;
+  background-position: center;
+  background-size: cover;
   cursor: pointer;
   touch-action: none; /* Prevents default touch actions */
 
@@ -35,25 +38,35 @@ div p {
 }
 
 @keyframes correct {
-  0%, 22%, 42% {
+  0%,
+  22%,
+  42% {
     background: $indigo-dye;
   }
-  20%, 40%, 60% {
+  20%,
+  40%,
+  60% {
     background: $hooker-green;
   }
-  62%, 100% {
+  62%,
+  100% {
     background: #39b54a;
   }
 }
 
 @keyframes wrong {
-  0%, 22%, 42% {
+  0%,
+  22%,
+  42% {
     background: $indigo-dye;
   }
-  20%, 40%, 60% {
+  20%,
+  40%,
+  60% {
     background: $hooker-green;
   }
-  62%, 100% {
+  62%,
+  100% {
     background: #e21726;
   }
 }

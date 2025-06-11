@@ -32,7 +32,7 @@ function Win() {
         <img className="_wn_nossa_logo" src={winLogo} alt="" />
 
         <div className="_wn_btn_containers">
-          <MainButton text="Jogar Novamente" handleClick={handleClick} transitionDelay={500}/>
+          <MainButton text="Jogar de Novo" handleClick={handleClick} transitionDelay={500}/>
         </div>
       </div>
       <Footer />

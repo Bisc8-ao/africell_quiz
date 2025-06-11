@@ -28,7 +28,7 @@ function Lose() {
         <img className="_lo_nossa_logo" src={loseLogo} alt="" />
 
         <div className="_lo_btn_containers">
-          <MainButton text="Jogar Novamente" handleClick={handleClick} transitionDelay={500}/>
+          <MainButton text="Jogar de Novo" handleClick={handleClick} transitionDelay={500}/>
         </div>
       </div>
       <Footer />

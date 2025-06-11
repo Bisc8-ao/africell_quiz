@@ -1,5 +1,11 @@
-import React, { useEffect, useImperativeHandle, useRef, useState, forwardRef } from 'react';
-import styled from 'styled-components';
+import React, {
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
+  forwardRef,
+} from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   position: relative;
@@ -47,7 +53,7 @@ const HorizontalTimer = forwardRef(({ duration, onComplete }, ref) => {
     },
     stopTimer() {
       clearInterval(intervalRef.current);
-    }
+    },
   }));
 
   useEffect(() => {
@@ -55,7 +61,8 @@ const HorizontalTimer = forwardRef(({ duration, onComplete }, ref) => {
   }, []);
 
   const percentageLeft = (timeLeft / duration) * 100;
-  const color = percentageLeft <= 25 ? 'red' : percentageLeft <= 50 ? '#FFFFFF' : '#7C185C';
+  const color =
+    percentageLeft <= 25 ? "red" : percentageLeft <= 50 ? "#FFFFFF" : "#F58220";
 
   return (
     <Container>
