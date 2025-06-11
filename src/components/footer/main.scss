@@ -28,7 +28,7 @@
 ._fo_link_container {
   span {
     color: $white;
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: "Noto Sans", sans-serif;
   }
 }
@@ -49,6 +49,9 @@
 @media (max-width: 430px) {
   ._fo_wrapper {
     padding: 1.6rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   ._fo_social_container {
@@ -60,6 +63,9 @@
   }
 
   ._fo_link_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     span {
       font-size: 1.8rem;
     }

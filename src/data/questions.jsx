@@ -1,105 +1,55 @@
+import konekta5g from '../assets/campanhas/konekta-5g.jpg'
+import konekta4g from '../assets/campanhas/konekta-4g.jpg'
+import esim from '../assets/campanhas/esim.jpg'
+import afrimoney from '../assets/campanhas/afrimoney.jpg'
+
 const questions = [
   {
     id: 1,
-    question: "Para que serve um seguro?",
+    question: "Konekta – Internet residencial",
+    image: konekta4g,
     answers: [
-      { text: "Serve para proteger financeiramente as pessoas ou empresas de imprevistos que possam causar diversos danos.", correct: true },
-      { text: "Serve para andar seguro nas ruas e estar livre de ataques de pessoas más.", correct: false },
-      { text: "Serve para ajudar a polícia a acabar com a delinquência juvenil.", correct: false },
-      { text: "Serve para causar danos propositalmente às pessoas e ter sempre como me defender.", correct: false },
+      { text: "Internet fixa 4G/5G, ideal para casas e pequenos negócios", correct: true },
+      { text: "Permite alternar entre vários números num só dispositivo", correct: false },
+      { text: "Funciona em todo o tipo de telemóvel via *777#", correct: false },
+      { text: "Cobertura em expansão nas principais cidades do país", correct: false },
     ],
   },
   {
     id: 2,
-    question: "O que é uma Apólice de seguro?",
+    question: "Afrimoney – Pagamentos móveis",
+    image: afrimoney,
     answers: [
-      { text: "Documento que comprova a contratação de um seguro.", correct: true },
-      { text: "Documento que a Polícia entrega quando alguém é assaltado.", correct: false },
-      { text: "Documento que me ajuda a tirar um visto para uma viagem para Portugal.", correct: false },
-      { text: "Documento que impede alguém de viajar quando não tem um seguro.", correct: false },
+      { text: "Ideal para quem não tem conta bancária", correct: true },
+      { text: "Alta velocidade, cobertura estável, suporte técnico contínuo", correct: false },
+      { text: "Ativação simples com suporte nas lojas Africell ou por WhatsApp", correct: false },
+      { text: "A nova geração de internet móvel da Africell", correct: false },
     ],
   },
   {
     id: 3,
-    question: "O que é um prémio de seguro?",
+    question: "eSIM – Chip digital",
+    image: esim,
     answers: [
-      { text: "O que se paga pela contratação/compra de um seguro.", correct: true },
-      { text: "O que se ganha pela contratação/compra de um seguro.", correct: false },
-      { text: "O que se oferece a uma pessoa que tem um seguro.", correct: false },
-      { text: "O dinheiro que alguém recebe por trabalhar numa seguradora.", correct: false },
+      { text: "Permite alternar entre vários números num só dispositivo", correct: true },
+      { text: "Plataforma de pagamentos e transferências por telemóvel", correct: false },
+      { text: "Navegação ilimitada com planos acessíveis", correct: false },
+      { text: "Velocidade ultra-rápida para jogos online, vídeos em HD, chamadas sem falhas", correct: false },
     ],
   },
   {
     id: 4,
-    question: "O que é um sinistro?",
+    question: "5G – Alta velocidade",
+    image: konekta5g,
     answers: [
-      { text: "Situação imprevista que resulta em um dano físico/material, que pode acionar as garantias do seguro.", correct: true },
-      { text: "Acontecimento que obriga alguém a mudar de país.", correct: false },
-      { text: "Situação premeditada que faz a seguradora pagar uma indemnização a uma pessoa que sofreu um acidente.", correct: false },
-      { text: "Uma situação que nunca aconteceu a nível mundial.", correct: false },
+      { text: "Velocidade ultra-rápida para jogos online, vídeos em HD, chamadas sem falhas", correct: true },
+      { text: "Sem necessidade de cabos, basta ligar e começar a usar", correct: false },
+      { text: "SIM virtual integrado no smartphone", correct: false },
+      { text: "Permite comprar saldo, pagar serviços e enviar dinheiro sem sair de casa", correct: false },
     ],
-  },
-  {
-    id: 5,
-    question: "Em que ano foi fundada a NOSSA?",
-    answers: [
-      { text: "2002", correct: false },
-      { text: "2004", correct: false },
-      { text: "2005", correct: true },
-      { text: "2012", correct: false },
-    ],
-  },
-  {
-    id: 6,
-    question: "Em que províncias se encontra a NOSSA?",
-    answers: [
-      { text: "Todas as províncias.", correct: false },
-      { text: "Em 10 províncias.", correct: false },
-      { text: "Em 16 províncias.", correct: true },
-      { text: "Em 7 províncias.", correct: false },
-    ],
-  },
-  {
-    id: 7,
-    question: "Como posso aderir a um seguro de saúde da NOSSA?",
-    answers: [
-      { text: "Na app da NOSSA.", correct: false },
-      { text: "Nas agências da NOSSA e Banco BAI.", correct: false },
-      { text: "No Contact Center da NOSSA.", correct: false },
-      { text: "Em todos os pontos mencionados.", correct: true },
-    ],
-  },
-  {
-    id: 8,
-    question: "Quantos anos de existência tem a NOSSA?",
-    answers: [
-      { text: "5 anos.", correct: false },
-      { text: "19 anos.", correct: true },
-      { text: "47 anos.", correct: false },
-      { text: "19 anos.", correct: false },
-    ],
-  },
-  {
-    id: 9,
-    question: "Quantos clientes tem a NOSSA?",
-    answers: [
-      { text: "90 000.", correct: false },
-      { text: "120 000.", correct: false },
-      { text: "300 000.", correct: false },
-      { text: "170 000.", correct: true },
-    ],
-  },
-  {
-    id: 10,
-    question: "Qual é o slogan da NOSSA?",
-    answers: [
-      { text: "Seguros de Angola.", correct: false },
-      { text: "Por uma vida mais leve.", correct: false },
-      { text: "NOSSA Seguros, protege o que é nosso.", correct: true },
-      { text: "NOSSA Seguros, Angola merece a nossa protecção.", correct: false },
-    ],
-  },
+  }
 ];
+
 
 // Função para randomizar um array usando o algoritmo de Fisher-Yates
 function shuffleArray(array) {

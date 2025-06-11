@@ -1,37 +1,37 @@
-import "./main.scss";
+import './main.scss'
 
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
-import Header from "../../components/header/index";
-import Footer from "../../components/footer/index"
-import MainButton from "../../components/buttons/mainButton/index"
+import Header from '../../components/header/index'
+import Footer from '../../components/footer/index'
+import MainButton from '../../components/buttons/mainButton/index'
 
-import hole from "../../assets/svg/hole.svg";
+import hole from '../../assets/svg/cloud.svg'
 
 function Intro() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   function handleClick() {
-      navigate('/quiz')
+    navigate('/quiz')
   }
 
   return (
     <div className="_in_wrapper">
       <Header />
       <div className="_in_container">
-      <div className="_le_hole_container">
-          <img className="_le_nossa_logo" src={hole} alt="Logo" />
-          <p className="_le_message">
-            Responda as perguntas e ganhe prémios com a NOSSA.
+        <div className="_le_hole_container">
+          <p className="_le_message _le_mesage_in">
+            Quanto sabes sobre a Africell? <br/> Arrasta as respostas certas para o topo das opções e
+            habilita-te a ganhar prémios.
           </p>
         </div>
         <div className="_in_btn_containers">
-          <MainButton text="Continuar" handleClick={handleClick} transitionDelay={500}/>
+          <MainButton text="Começar" handleClick={handleClick} transitionDelay={500} />
         </div>
       </div>
       <Footer />
     </div>
-  );
+  )
 }
 
-export default Intro;
+export default Intro

@@ -8,7 +8,7 @@ import Header from "../../components/header/index";
 import Footer from "../../components/footer/index"
 import MainButton from "../../components/buttons/mainButton/index"
 
-import winLogo from "../../assets/svg/win.svg";
+import winLogo from "../../assets/svg/cloud_title_win.svg";
 
 function Win() {
   const navigate = useNavigate();

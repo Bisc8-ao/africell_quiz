@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-    font-family: 'Aux Pro';
-    src: url('./assets/font/Aaux_ProBlack.ttf') format('truetype');
+    font-family: 'Nexa';
+    src: url('./assets/font/NexaHeavy.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('./assets/font/NexaBold.otf') format('truetype');
     font-weight: 900;
 }
 
@@ -11,11 +17,12 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 62%;
-    font-family: "Aux Pro", sans-serif;
+    font-family: "Nexa", sans-serif;
+    font-weight: 900;
     outline: none;
     list-style: none;
 }
 
 body {
-    background-color: #012B50;
+    background: url("../../assets/images/background_pattern.png") no-repeat;
 }

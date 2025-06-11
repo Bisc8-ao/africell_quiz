@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../../assets/svg/background.svg") no-repeat;
+  background: url("../../assets/images/background_pattern.png") no-repeat;
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@
   transform: translateX(-50%);
 }
 
-._hm_social, 
+._hm_social,
 ._hm_social ul {
   display: flex;
   justify-content: center;
@@ -121,7 +121,7 @@
   ._hm_social ul {
     gap: 1.2rem;
   }
-  
+
   ._hm_link {
     font-size: 2.4rem;
     margin-top: 0;
@@ -164,7 +164,7 @@
   ._hm_social ul {
     gap: 1rem;
   }
-  
+
   ._hm_link {
     font-size: 2rem;
     margin-top: 0;
@@ -206,7 +206,7 @@
   ._hm_social ul {
     gap: 1rem;
   }
-  
+
   ._hm_link {
     font-size: 2rem;
     margin-top: 0;

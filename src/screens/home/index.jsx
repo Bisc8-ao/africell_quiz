@@ -5,11 +5,11 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoMdPlay } from "react-icons/io";
 
 import MainButton from "../../components/buttons/mainButton/index";
-import logo from "../../assets/images/NOSSA.png";
+import logo from "../../assets/svg/logo_cloud.svg";
 
 function Home() {
   const navigate = useNavigate();
-  
+
   function handleClick() {
     navigate("/intro");
   }
@@ -24,7 +24,7 @@ function Home() {
             handleClick={handleClick}
             transitionDelay={500}
           />
-          <div className="_hm_contact">+244 923 190 860</div>
+          {/* <div className="_hm_contact">+244 923 190 860</div> */}
           <div className="_hm_social">
             <ul>
               <li className="_hm_social_icon">
@@ -40,7 +40,7 @@ function Home() {
                 <IoMdPlay />
               </li>
             </ul>
-            <span className="_hm_link">www.nossaseguros.ao</span>
+            <span className="_hm_link">www.africell.ao</span>
           </div>
         </div>
       </div>

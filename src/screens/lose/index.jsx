@@ -6,7 +6,7 @@ import Header from "../../components/header/index";
 import Footer from "../../components/footer/index"
 import MainButton from "../../components/buttons/mainButton/index"
 
-import loseLogo from "../../assets/svg/lose.svg";
+import loseLogo from "../../assets/svg/cloud_title_lose.svg";
 
 function Lose() {
   const navigate = useNavigate();

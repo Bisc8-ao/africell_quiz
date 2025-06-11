@@ -55,7 +55,7 @@ const HorizontalTimer = forwardRef(({ duration, onComplete }, ref) => {
   }, []);
 
   const percentageLeft = (timeLeft / duration) * 100;
-  const color = percentageLeft <= 25 ? 'red' : percentageLeft <= 50 ? 'orange' : 'green';
+  const color = percentageLeft <= 25 ? 'red' : percentageLeft <= 50 ? '#FFFFFF' : '#7C185C';
 
   return (
     <Container>

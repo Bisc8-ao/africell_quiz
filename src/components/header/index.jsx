@@ -1,6 +1,6 @@
 import "./main.scss"
 
-import nossa_logo from "../../assets/svg/nossa_logo.svg"
+import nossa_logo from "../../assets/svg/logo_africell.svg"
 
 function Header() {
 

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
 
-  background: url("../../assets/svg/background.svg") no-repeat;
+  background: url("../../assets/images/background_pattern.png") no-repeat;
   background-size: cover;
 }
 
@@ -19,7 +19,7 @@
   width: 100%;
   display: inherit;
   flex-direction: column;
-  gap: 10rem;
+  gap: 40rem;
 
   margin: auto 0;
   padding: 0 $mr-xxl;
@@ -30,11 +30,19 @@
   margin: 0 auto;
 }
 
+._le_message._le_mesage_in {
+  font-size: 6rem;
+}
+
 ._in_btn_containers {
   display: inherit;
   justify-content: center;
   margin-top: $mr-m;
 
+}
+
+.in_info_container {
+  width: 400px;
 }
 
 

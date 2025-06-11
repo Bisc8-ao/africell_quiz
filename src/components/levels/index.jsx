@@ -9,7 +9,7 @@ import hole from "../../assets/svg/hole.svg";
 const LEVELS = ["Nível 1", "Nível 2", "Nível 3"];
 
 function getGameLevel(questionNumber) {
-  if (questionNumber <= 4) {
+  if (questionNumber <= 2) {
     return LEVELS[0];
   } else if (questionNumber <= 8) {
     return LEVELS[1];
