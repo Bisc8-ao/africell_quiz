@@ -16,8 +16,11 @@ function Home() {
 
   return (
     <div className="_hm_wrapper">
+      <div className="_hm_rotating_bg"></div>
       <div className="_hm_container">
-        <img className="_hm_nossa_logo" src={logo} alt="" />
+        <div className="_hm_image_logo_container">
+          <img className="_hm_nossa_logo" src={logo} alt="" />
+        </div>
         <div className="_hm_btn_containers">
           <MainButton
             text="Jogar"

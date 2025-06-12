@@ -39,7 +39,7 @@ const questions = [
   },
   {
     id: 4,
-    question: "eSIM",
+    question: "e-SIM",
     image: esim,
     answers: [
       { text: "Chip digital que não precisa ser inserido fisicamente no telemóvel", correct: true },
