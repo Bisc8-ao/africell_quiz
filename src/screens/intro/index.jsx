@@ -21,7 +21,7 @@ function Intro() {
       <div className="_in_container">
         <div className="_le_hole_container">
           <p className="_le_message _le_mesage_in">
-            Quanto sabes <br/>sobre a Africell? <br/> Arrasta as respostas certas para o topo das opções e
+            Quanto sabes <br/>sobre a Africell? <br/> clica na resposta certa e
             habilita-te a ganhar prémios.
           </p>
         </div>
