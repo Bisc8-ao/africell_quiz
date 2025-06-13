@@ -17,7 +17,7 @@ function Footer() {
                 </ul>
             </div> */}
             <div className="_fo_link_container">
-                <span className="_fo_link">www.africel.ao</span>
+                <span className="_fo_link">www.africell.ao</span>
             </div>
         </div>
     )
