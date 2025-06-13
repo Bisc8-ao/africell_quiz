@@ -11,7 +11,7 @@ const Container = styled.div`
   position: relative;
   width: 100%;
   height: 4rem;
-  background-color: transparet;
+  background-color: transparent;
 `;
 
 const ProgressBar = styled.div`

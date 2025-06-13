@@ -13,7 +13,7 @@ export default function Splash() {
     setTimeout(() => {
       navigate('/home')
     }, 3000)
-  })
+  }, [])
 
   return (
     <div className="_sp_wrapper">

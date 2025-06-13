@@ -11,8 +11,8 @@ function AnswerButton({
 }) {
   const answerRef = useRef(null);
 
-  // Simple touch handler for mobile
-  const handleTouchEnd = () => {
+  // Handler for both click and touch
+  const handleInteraction = () => {
     setTimeout(
       () => {
         handleClick(answer);
@@ -27,15 +27,7 @@ function AnswerButton({
         ref={answerRef}
         whileTap={{ scale: 0.85 }}
         className={`${selectedAnswer === answer ? className : "_tr_answer"}`}
-        onTouchEnd={handleTouchEnd}
-        onClick={() => {
-          setTimeout(
-            () => {
-              handleClick(answer);
-            },
-            !transitionDelay ? 0 : transitionDelay
-          );
-        }}
+        onClick={handleInteraction}
       >
         <p>{answer.text}</p>
       </motion.div>

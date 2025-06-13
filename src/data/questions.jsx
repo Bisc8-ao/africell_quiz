@@ -68,6 +68,4 @@ shuffledQuestions.forEach(question => {
   question.answers = shuffleArray([...question.answers]);
 });
 
-console.log(shuffledQuestions);
-
 export { shuffledQuestions };
